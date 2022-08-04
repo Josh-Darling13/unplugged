@@ -87,6 +87,90 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+
+   header,
+   footer {
+     display: flex;
+     align-items: center;
+     align-content: center;
+     flex-flow: column wrap;
+   }
+   
+   header .content-wrapper {
+     display: flex;
+    justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+   
+   header nav {
+     display: flex;
+    align-content: center;
+     align-items: center;
+ /*    flex-flow: column wrap; */
+   }
+   
+   header nav ul {
+    list-style-type: none;
+     display: flex;
+     justify-content: space-around;
+   }
+   
+   footer .social-icons {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+   }
+   
+   footer .social-icons p {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+ 
+  
+   /* Hero Area */
+   
+   .hero-area {
+     display: flex;
+     justify-content: center;
+     flex-flow: row wrap;
+   }
+   
+   /* Aside */
+   
+   aside {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+   
+   /* Features */
+   
+   .features {
+     display: flex;
+     justify-content: center;
+     flex-flow: row wrap;
+   }
+   
+   .features .features-items {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+   }
+   
+   /* Reviews */
+   
+   .reviews {
+     display: flex;
+     justify-content: center;
+     flex-flow: row wrap;
+   }
+  
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
