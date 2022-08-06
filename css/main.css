@@ -137,7 +137,14 @@ textarea {
   address {
    font-style: normal;
   }
+  
+  img { 
+    width: 100%;
+  }
    
+  figure {
+          margin: 0;
+  }
 
 
   .content-wrapper {
@@ -154,11 +161,20 @@ textarea {
     align-items: center;
     flex-flow: row wrap;
   }
+
   
   header {
     padding: 15px 0;
   }
   
+  header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
   header .content-wrapper {
     margin: 0;
     display: flex;
@@ -241,6 +257,10 @@ footer .copyright {
    
  
 .hero-area {
+  background: url(../img/jake-melara.png);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -293,10 +313,16 @@ input[type=button] {
 }
 /* Features */
 
+/* Features */
+
 .features {
+ background: url('../img/rawpixel-800820-unsplash1.png');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  
 }
 
 .features h2 {
