@@ -108,8 +108,14 @@ textarea {
   ul, 
   ol {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+
+    display: flex;
+    justify-content: space-around;
+  }
+
+  li{
+   /* margin: 0 1em 0 1em; */
+    padding: 0 1em 0 1em;
   }
   
   a {
@@ -561,9 +567,15 @@ input[type=button] {
         font-size: 1.5em;
         line-height: 1.25;
     }
-  
-  
+   
     /* Header */
+
+
+    ul{
+      display: flex;
+      justify-content: space-between;
+    }
+
     header {
       justify-content: space-around;
       padding: 33px 0;
@@ -587,7 +599,9 @@ input[type=button] {
     }
   
     header nav ul {
+      display: flex;
       justify-content: space-between;
+ 
     }
   
     .header-divider {
@@ -648,7 +662,6 @@ input[type=button] {
     margin: 0;
   }
 
-
   /* Footer */
   
   footer .content-wrapper {
@@ -683,10 +696,6 @@ input[type=button] {
   footer .copyright {
     width: 100%;
   }
-
-
-
-
 
   /*  About Page  */
 
@@ -738,7 +747,6 @@ input[type=button] {
       font-size: .875em;
       line-height: 1.125;
   }
-  
 }
   
   @media only screen and (min-width:1200px) {
@@ -827,8 +835,7 @@ input[type=button] {
     }
   
     /* FAQ Page */
-
-    
+ 
     .faq h2 {
       width: 100%;
       font-size: 3em;
@@ -840,7 +847,8 @@ input[type=button] {
         line-height: 1;
     }
   }
-/* ==========================================================================
+
+  /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
